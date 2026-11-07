@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow directories to be traversed so Git can look inside subfolders
+!**/
+
+# Allow all Markdown files recursively
+!**/*.md
+
+# Optional: Keep the .gitignore file itself tracked in the repo
+!.gitignore
