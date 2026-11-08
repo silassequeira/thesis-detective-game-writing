@@ -1,0 +1,9 @@
+Abstract
+
+Detective videogames frequently promise investigative freedom while constraining players to predetermined solutions, creating a tension between the appearance of agency and the reality of authorial control. This thesis addresses the question: can digital detective narratives be designed to support genuine epistemic agency, where players solve mysteries through their own reasoning rather than following hidden designer-intended paths? Through a Research-through-Design methodology, this work proposes and develops a playable prototype that operationalizes interpretation-as-mechanic across four interconnected systems: a two-slot evidence examination framework that allows the same clue to yield different insights through multiple investigative tools; social resource mechanics (patience) that position NPCs as strategic obstacles rather than information dispensers; a dream-awake investigative loop where symbolic dreamscapes function as parallel epistemic spaces revealing truths unavailable through waking logic. Grounded in theories of dramatic agency (Laurel), ergodic literature (Aarseth), and narrative architecture (Jenkins), and informed by critical analysis of seminal detective games including Deadline, Blade Runner (1997), Disco Elysium, and Ace Attorney Investigations, this research contributes both a practical design framework for multi-solution mystery architecture and theoretical insights into how interpretation can serve as a foundational game mechanic rather than narrative decoration. Expected outcomes include playtesting data demonstrating whether players experience investigation as cognitive work, whether multiple valid solutions enhance narrative satisfaction, and design principles for future detective game development that respects players as independent thinkers.
+
+  
+
+Keywords
+
+Interactive narratives; Detective games; Epistemic agency; Game design; Mystery architecture; Ergodic literature; Research-through-Design

@@ -7,5 +7,8 @@
 # Allow all Markdown files recursively
 !**/*.md
 
+# Re-ignore any folder named "▤ - DUMP" (and therefore everything inside it)
+**/▤ - DUMP/
+
 # Optional: Keep the .gitignore file itself tracked in the repo
 !.gitignore
