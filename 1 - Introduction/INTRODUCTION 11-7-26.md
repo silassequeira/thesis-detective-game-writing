@@ -30,7 +30,7 @@ Research Questions:
 
 1. How can evidence be designed so that the same clue can be interpreted multiple ways, allowing players to follow different investigative paths while still reaching valid conclusions?
 
-2. What role can NPC interactions play in distributing investigative agency beyond simple dialogue choices, specifically, can constrained social resources like patience create genuine strategic depth?
+2. What role can NPC interactions play in distributing investigative agency beyond simple dialogue choices, specifically, can constrain social resources like patience create genuine strategic depth?
 
 3. Can dream sequences function as meaningful investigative spaces where symbolic reasoning reveals truths unavailable through waking logic?
 

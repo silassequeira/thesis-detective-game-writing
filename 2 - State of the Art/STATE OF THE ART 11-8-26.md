@@ -1,4 +1,4 @@
-2. State of the Art
+# State of the Art
 
 ## 2.1 The Origins of Drama
 
