@@ -1,0 +1,7 @@
+
+Julian can inject himself with the Moon Drug using his auto injector, doing so will result in the dream sequence related to the detective, that consists of fulfilling his biggest unconscious desire, that relates to the truth and knowing the truth. The dream sequence consists of a empty black space with the detective walking around trying to find something, and in the distance he finds a glowing white entity just waiting, where the player can then interact. The player then asks "Where am I" and the entity responds 
+
+"You wanted the truth, but as you can see, its nothing but pure darkness. We are just merely vessels for our minds and our senses to perceive something, an illusion, because it's so paradoxical to be existing here, that we try our hardest to be anywhere but here. Ironically you desire truth, but you still can't and refuse to comprehend it, even seeing it directly with your own eyes" and the player then has two options to either ask "Who are you ?" or "What is the meaning of all this" both will result in the same answer "I'm nothing, that yet exists, the deepest desire you can't and won't fulfill. All you can really do is wait, just like all of us, until you start perceiving something that you can actually comprehend and accept. It was nice talking to you, you'll be seeing me anytime you dare to look". The detective then wakes up.
+
+
+_"This sequence is purely interpretive. It does not unlock any evidence, dialogue options, or verdicts. Its function is thematic and atmospheric, not procedural. The main case is fully resolvable without it."_
