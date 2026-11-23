@@ -321,108 +321,59 @@ These trade-offs are not weaknesses to be hidden. They are the conditions under 
 The Narrative system and how it works, its one component of the experience, being more of the brains of the narrative system while the action component that is explored through the UI, and the system architecture would also need to fall into the decision of how is the game going to feel and look like. 
 
 
-### 7.4 Audio Visual planning
+## 7.4 Interface and Presentation Planning
 
-The last part of the conceptualization for the digital prototype required previous decisions to be made before starting the development, from different areas that make up the digital detective videogame. 
+The final part of the prototype’s conceptualisation concerned how the investigation should feel and how the player should interact with it. These decisions had to be made before development began because they constrained the scope of the project, the asset pipeline, and the usability of the dialogue system. The audio-visual production and the concrete behaviour of each interface panel are covered in Chapter 8. This section documents the design intent, the interaction problems identified during the workshop, and the iteration history that led to the implemented interface.
 
-### The feel of the game
+Two framing notes apply. First, this section describes planning, not build. The concrete behaviour of each panel—drag rules, hover states, character limits, timings, and final layouts—is specified in Chapter 8. Second, the design was iterative. The figures cited below pair early sketches with later layouts, and these pairs are part of the Research-through-Design evidence for this chapter.
 
-This aspect had two major decisions that would influence the time and scope of the project that had to be made. Is the game going to be in 3D, 2D, be in first person ? In the previous design proposal with the out of scope narrative, the idea was for the navigation to be in a 3D isometric perspective. But while conceptualizing this narrative, I thought about making the game in a visual novel style, since there were few rooms that the player would be able to explore (Figure X). The idea was quickly abandoned for the following reasons. It wouldn't be scalable, if I wanted to explore other forms of this game I wouldn't be able to reuse the assets since the navigation would be specific to this narrative, and the other and the biggest issue with this, is that I would either have to generate the sprites using AI, or spend a lot of the limited time drawing minimal sprites that could communicate the layout of the room, and some sprites for the character animations so that they wouldn't feel so stiff to look at during interrogations. 
+### 7.4.1 The Feel of the Game
 
-The decision to go with the isometric perspective is that it allowed me to explore the vision that I had from the beginning of this project, and that it would require me to explore and learn to develop the game in 3D, and it would allow me to scale it easily and use free 3D assets/animations/character models as placeholders to be changed if I wanted to explore this project further in the future. 
+The first presentation decision concerned perspective and dimensionality. An earlier design proposal had imagined navigation in a 3D isometric perspective. During the conceptualisation of this narrative, I considered instead making the game in a visual-novel style, since the player would only be able to explore a limited set of rooms (Figure X). That option was abandoned for three reasons. It would not be scalable: if the project were extended, the navigation-specific assets could not easily be reused. It would require either generating sprites with AI or spending a large part of the limited development window drawing minimal room sprites and character animations, which would still risk looking stiff during interrogations. And it would have moved the project away from the spatial exploration that workshop participants had already shown interest in.
 
-The audio visual side of the game will be further explored in the 8th chapter 
+The decision to use an isometric 3D perspective therefore preserved the original vision for the project while remaining achievable. It allowed me to learn and develop in 3D, to scale the environment more easily, and to use free 3D assets, animations, and character models as placeholders that could be replaced if the project were developed further. The audio-visual side of this decision, including final asset use and production, is discussed in Chapter 8.
 
-The design and planning of the user interface has gone through a lot of iterations, even prior to any definitive narrative or any conceptualization of the system's architecture. The planning from the beginning consisted of making the equipping mechanic simple and quick that allowed the player to express to communicate its intention without feeling the friction of having to select and find the evidence they wanted to use. 
+### 7.4.2 Interaction Design Problems
 
-Two framing notes apply to the whole subchapter. First, this section documents intent, not build. The concrete behaviour of each panel (drag rules, hover states, character limits, timings) is described in Chapter 8. Second, the design was iterative, and the figures cited below pair early sketches with the final layouts; these pairs are the evidence for the Research-through-Design claim made in this chapter.
+The two-slot mechanic had already become, during the workshop, the essential middle ground between the system recognising the player’s intention and the player being able to present the evidence they wanted to show within a given context. The interface therefore had to support three things at once: the player’s expression of an investigative intention through Inquiry or Confrontation, the player’s ability to organise their case, and the persistent pressure of the in-game clock. The clock had to remain visible at all times to build time pressure.
 
-### Interaction Design Planning
+Within that brief, the UI planning centred on three problems.
 
-The two-slot mechanic even during the workshop became the essential middle ground between the system recognizing the player's intention and the player being able to present the evidence that they wanted to show within a certain context. The player would also need to be able to communicate their interrogation intentions with an inquiry or confrontation, and would also require tools to organize their case. And lastly the time pressure and clock had to be present at all times to build up time pressure. 
+First, evidence cards had to be visually distinct but still recognisable. There were many pieces of evidence, most of them reports with similar formats, and during the workshop the facilitator often had to help participants find the report card or document they wanted to present. Each evidence card therefore had to communicate its relation to the underlying report quickly, without requiring the player to read the full title every time (Figure X).
 
-With that in mind, the planning for the UI panels centered around the following issues. 
+Second, equipping evidence had to be fast enough to communicate intention during a conversation, but not so frictionless that the player could endlessly test combinations to see whether something new appeared. The decision was to implement a dragging interaction to one of the slots, mirroring how players had physically dragged cards during the workshop sessions.
 
-1- Since there were a lot of evidences, most of them being reports with similar formats, and since It was noticed that there were a lot of issues during the workshop with the facilitator having to help them sometimes find the report card or report that they wanted to present, a design decision had to be made to make each evidence card visually distinct but recognizable enough to quickly communicate to the player the relation of the image to the report. Because of this problem each evidence card was designed distinctively the following way (Figure X). 
+Third, participants had organised their evidence in different ways during the workshop. The interface therefore needed tools that would let players sort evidence by suspect, theory, or timeline without the system performing any deduction or investigative reasoning for them.
 
+### 7.4.3 First Iteration: Side-by-Side Dialogue and Case Folder
 
-2- Both slots had to be designed in a way that it's easy and fast for the player to communicate their intentions during a certain context, but not too easy and fast to allow the player to test different combination to see if one of them brought something new. So the decision was made to implement the dragging interaction to one of the slots, similar to how a player had to drag the cards during the workshop sessions to communicate their intentions. 
+The first design iteration organised the screen in two parts (Figure X). The left side was focused on dialogue and the two slots; the right side held the inventory and the clock. The layout resembled a Disco Elysium-style arrangement, so that dialogue would not interfere with the player’s ability to see the action on screen while still allowing them to read dialogue and drag evidence into the slots (Figure X).
 
+In this iteration, dialogue was shown in a column style, with questions and character responses registered alongside one another. The narrative system had not yet been conceptualised, so the options were rendered from the evidence the player chose and the intention they were pursuing: Inquiry, Confrontation, or End Conversation. This first concept was abandoned because it was too limited and obscured the player’s dialogue decision.
 
-3- During the workshop sessions, participants came up with different ways of organizing their evidence cards and reports, so I had to build tools and ways for the player to organize them in a way that aims to provide that organization functionalities aiming to speed up the dialogue confrontation process, and helping the player organize the evidences in a way that would help them with the case without making any deduction or investigative reasoning for them. 
+The inventory was designed to resemble an actual police folder on the right side of the screen. It allowed the player to see the information they needed from the case folder while retaining the dialogue context on the left, and to drag evidence from the folder into the slots in a way that mimicked the physical interaction of the workshop. The inspection panel aimed to resemble the folder itself: the player could zoom in and out and pan around a document, and could create and organise evidence in different folders in a way that resembled the workshop sessions (Figure X).
 
-#### First Iteration
+### 7.4.4 Second Iteration: Centring the Investigative Act
 
+The second iteration repositioned the player’s action at the centre of the screen. This iteration is closer to the interface explored in Chapter 8.
 
-So the initial iteration of the design was processed (Figure X)
+Dialogue affordances became part of the main panel itself. The player could switch between Inquiry and Confrontation while in the panel, and the questions displayed depended on the equipped evidence, following the logic described in §7.3. The player could also scroll through the dialogue history. A quick menu allowed evidence to be dragged from either the inventory or the equipped folder directly into the slots, and a conversation archive allowed the player to revisit previous dialogue and see which evidence had triggered it (Figure X). The archive was intended to support reflection: it lets the player reconstruct their own line of reasoning without the system interpreting it for them.
 
-This first design iteration from a design perspective was organized in two ways, the left part of the screen was focused on the dialogue and the two slots (Figure X) and right side was the inventory and the clock that was present at all time. It had a similar panel layout as a Disco Elysium style games. It was done so that the dialogue wouldn't interfere with the player being able to visualize the action that was happening on the screen while still being able to read the dialogue and drag evidence into the slots (Figure X).
+The inventory was reconceived as the detective’s case file. It could open either to the full evidence list or to the player’s equipped folder, and it covered the whole screen when opened (Figure X). The important design shift was that the player could organise folders and equip evidence without closing the inventory, so that sorting and arguing were part of the same workflow. Inside a folder, the player could switch between viewing its contents and moving evidence into it. The HUD sat in the top-left corner with inventory and folder icons that opened the appropriate panel.
 
-Dialogue in this iteration would be shown in a column style with the questions registering and being displayed along side the character responses. During this design conceptualization I still wasn't sure how dialogue would play out and narrative system wasn't yet conceptualized so the options would be rendered based on the evidence that the player chose and the intention they were going with the dialogue, with the options being 1- Inquiry, 2- Confrontation 3[End Conversation], this first concept was abandoned due to the limited nature of it with the options falling to the error of obscuring the player of their dialogue decision. 
-
-The Inventory layout was designed in a way that resembled an actual police folder in the right side of the screen, and could allow the player to visualize all of the information that he would need from the case folder in one side of the screen while still retaining the dialogue context in the left one and he could also drag the evidence to the slots from the folder mimicking the interaction that would be done in irl. situation.  
-
-In this iteration the Inspection panel aimed to resemble the folder where the report would be present on. The player in this panel would be able to zoom in and zoom out, and pan around the document to read it similar to how the player would read them during the workshop. The player would also be able to have the possibility to create and organize evidence in different folders similar to how it was done during the workshop sessions (Figure X).
-
-
-#### Second Iteration
-
-In this second iteration the panel was organized instead to position the action the player would be doing directly in the center. This iteration is more similar to the one explored in chapter 8. 
-
-The dialogue affordances are now part of the panel itself, with the player being able to switch to the Inquiry and Confrontation while on the panel, and it was designed for to follow the logic of the previous subchapter, where depending on the player's equipped evidence, the questions would then be displayed accordingly with the player being able to scroll through the dialogue history in the panel. 
-
-The player is now able to open a quick menu to quickly drag the evidence either from the inventory or from the equipped folder directly to the slots, and he's also able to go through the conversation archive at any time to read through the previous dialogue (Figure X).
-
-The conversation archive allows the player to select the instance that they want and read through it while also providing the information of which evidence he used to trigger the evidence. 
+Inspection and reading were planned as a close-up evidence mode with note-taking, page navigation, and equip controls. The concrete layout and interaction rules for that mode belong to Chapter 8. What matters for the design architecture is the principle: inspecting evidence should feel like handling a document, not like opening a database entry.
 
 
-The inventory is the detective’s case file. It opens in one of two ways: straight to the full evidence list, or straight to the player’s **equipped folder**. Opening this panel now covers the whole screen (Figure X). 
+> Note: I should explain here the process behind building the evidence cards for the UI. 
 
-Layout
-- **Top bar:** a small logo that changes depending on whether you’re looking at the full inventory or a folder, a row of **tabs**, a **“+ New Folder”** button and a **Close** button.
-- **Left side:** the two evidence slots (A and B), or the contents of a folder, depending on the current view (see “Two views” below).
-- **Right side:** a grid of evidence cards with a heading saying what’s being shown.
-- Left corner: a list of the possible shortcuts.
+### 7.4.5 Design Principles Carried into Implementation
 
-Tabs
-- The first tab is always **“Inventory”**, which shows every piece of evidence the player has collected.
-- Every folder the player has gets its own tab. The equipped folder is highlighted in the tab.
-- The player can click a tab or cycle through the folders with the keyboard.
+The interface planning produced a small set of principles that constrain the implementation described in Chapter 8.
 
+Evidence must remain legible at a glance, because the player’s main expressive act is choosing which evidence to put forward. Equipping should involve deliberate friction—dragging rather than instant selection—so that the player commits to a proposal rather than testing combinations passively. Organisation tools should help the player sort and retrieve evidence without performing deduction for them. Dialogue context and the clock should remain available while the player works with evidence. And the interface should never confirm an interpretation in advance; it should let the player commit to a hypothesis and let the story answer.
 
-The player in the inventory panel can do multiple things, either organizing each folder or equipping the evidence in the slots without having to close the inventory panel at all. 
+Because Unity’s UI Toolkit follows a web-like logic similar to HTML and CSS, the visual and functional aspects of the interface were first prototyped in a web environment before being adapted into Unity (Figure X). The concrete build, final panel behavior, and audio-visual implementation are specified in Chapter 8.
 
-Inside a folder the player then haves two views, one displays the evidence inside that folder where he can equip from that folder to the slots, and the other view where he would then be able to drag into the container the evidence that he wants to be part of that folder. 
+## 7.5 Summary
 
-The HUD is positioned in the left top corner, with the inventory or folder icons to equip open the appropriate panel.
-
-
-Hovering over any card and pressing the Inspect or Read key opens that card. Double-clicking a card also opens Inspect. If the player opens a card from inside a folder, Inspect and Read remember that, so flipping to the next or previous card stays **inside that folder**.
-
-**Its role in the story:** the inventory turns collecting into reasoning. Folders let the player sort evidence by suspect, theory or timeline. The equipped folder carries that work into conversations. Slots are where the player commits to a line of argument.
-
-## Inspect mode
-
-Inspect mode is a close-up of one piece of evidence, shown over a darkened screen. This panel expands on the card and allows the player to control what they want to do with said evidence. This is the panel where the player would be able to write a note for that specific evidence. 
-
-### Layout
-
-- **Title:** the evidence ID and its name.
-- **Left column:** a large version of the card, three action buttons beside it, and a **note card** underneath that looks like paper.
-- **Right column:** a **preview of the document**, with page arrows and a page counter (for example “2 / 4”). The arrows only appear when there’s more than one page.
-- **Buttons:** a “Read Mode” button and a “Close window” button.
-- **Bottom bar:** a row of shortcut hints.
-
-### The three action buttons
-
-All three are toggles, and their labels change to show the current state:
-
-- **Equip to / Unequip from Slot A**
-- **Equip to / Unequip from Slot B**
-
-
-### Read Mode
-
-In this panel similar to the inspect panel of the previous iteration the player is then able to read or analyze a certain evidence more closely (Figure X).
-
-All of these UI panels and their functionalities are expanded on the 8th chapter. The part of the planning that I want to note out, is that since Unity uses the UI Toolkit for the UI that has a similar logic to web coding languages such as HTML and CSS, the visual and functional aspect of the UI was implemented in a superficial way first in a web environment before being adapted into Unity (Figure X). 
+This subchapter has described the base architecture of the digital prototype: a Petri net-inspired state machine adaptation focused on videogame logic, converted into a state-machine reference for authoring, debugging, and documentation. The architecture connects evidence, dialogue, space, time, and narrative consequence through a shared flag space, allowing each system to operate independently while remaining coordinated with the others. It functioned as the base architectural structure of the prototype rather than as an exhaustive specification, and was continually reconciled with the implementation as the prototype evolved. It provides the operational foundation for the narrative and dialogue systems described in 7.1 and 7.2. The following subchapter describes how this architecture was implemented in the digital prototype, including the evidence system, dialogue UI, countdown management, and ending resolution.
