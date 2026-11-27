@@ -10,6 +10,121 @@ The revision followed five connected design objectives:
 2. Planning and solidifying how the evidence requests, investigative intentions, inquiries, confrontations, and final accusations, could be adapted to a digital playable prototype.
 3. Translating the low-fidelity interaction model into a scalable narrative system that allows players to interrogate suspects.
 
+
+**7 (chapter intro)**
+7.01 ★ ® The intro says "five connected design objectives" but lists three. What are all of them? — Open; settle together with 6.17
+
+> Ok, I need to explicitly state that the design objectives from chapter 6 are different from the design objectives from chapter 7, as explained in the answer for the question 6.17. Considering that, this list is incomplete and needs better structure to actually align with the sections that are being explored in this chapter. 
+
+7.02 ® Will the thesis use first person ("I") throughout, or only in Ch7? Chapters 4–6 and 8 are impersonal. — ◆ Decision
+
+> This is a writing issue that needs to be addressed, since the tone needs to be consistent through out, and aligned with was the examiners expect from a written thesis document. This is an issue present in this chapter, because I started writing it with the same voice and tone, to the one I used to answer these types of questions. 
+
+7.03 ® When did the Ch7 work happen relative to the rehearsals and the Unity build (months)? — Open; feeds the Methodology chronology (G07)
+
+> Ok, to clear out the timeline for later rework of the methodology chapter in the Timeline File.
+
+``` 
+#### Creating the Fabula Idea- NARRATIVE DESIGN THE AUTHORED MODEL 
+
+Narrative Creation Idea - **January 22** to **February 01**
+
+Complete Narrative Idea Draft - **January 31**
+
+Initial Reports Draft Iteration - **February 01** to **February 06**
+
+#### First Unofficial Design Rehearsal and Initial Evidence Corpus Revision
+
+> First Unofficial Design Rehearsal - **February 06** (3:10 PM – 7:25 PM) 𖠋
+
+> Evidence Corpus Revision - **February 06** to **February 18** (*Based on when the documents were printed*)
+
+#### Official Design Rehearsals Phase
+
+~4.5-hour completion window
+
+First -  **February 21** 
+
+Last - **March 16**
+
+> S04 - **February 21** (11:23 PM – 1:45 AM) ☛ 𐀪 𖨆𖨆
+> S09 - **February 23** (3:00 PM – 8:47 PM) ☛ 𐀪
+> S11 - **February 23** (9:00 PM – 1:20 AM) 𖠋 ☊
+> S12 - **February 24** (4:30 PM – 9:30 PM) ☛ 𖠋 𖨆𖨆
+> S03 - **February 25** (Time: 3:00 PM – 8:00 PM) 𐀪 𝐅
+> S07 - **February 25** (Time: 10:00 PM – 12:40 AM) 𖠋 ♠
+> S05 - **February 27** (Time: 4:00 PM – 7:00 PM) ✗
+> S01 - **February 28** (Time: 9:20 PM – 11:40 PM) ✗
+> S02 - **March 2** (Time: 4:00 PM – 9:00 PM) 𖠋 ☊ 𖨆𖨆
+> S10 - **March 3** (3:00 PM to 8:24 PM) 𐀪 𝐅
+> S06 - **March 5** (Time: 12:00 Midnight – 4:00 AM) 𖠋 ☊
+> S13 - **March 5** (Time: 11:00 PM – 3:00 AM) 𖠋 ♠
+> S08 - **March 12** (Time: 10:00 AM – 12:15 Noon & ‏‎5:28 PM –  ‏7:30 PM) **March 16** (Time: 5:00 PM – 8:00 PM) 𐀪 𝐅
+
+##### Small Analysis
+
+Elara (𖠋) = 6 (~54.5%)
+
+Kae (𐀪) = 5 (~45.5%)
+
+Elara Killer + Kae Obstruction (𖠋 ☊) = 3 (avg duration = 4h 27m)
+
+Elara Killer + Kae Gun Possession (𖠋 ♠) = 2 (avg duration = 5h 54m)
+
+Kae Killer + Elara Free (𐀪 𝐅) = 3 (avg duration = 3h 20m)
+
+Fired Ending (`☛`) = 3 (avg duration = 4h 23m) *Getting "fired" only happened early in the testing timeline (Feb 21–24)*
+
+(`𖨆𖨆`) = 3
+
+###### Timeline & Pacing Shifts
+
+Early failure vs. late completion: All Fired (☛) outcomes occurred in the opening stretch (Feb 21–24), and both Incomplete (✗) runs happened mid-way (Feb 27–28). From March 2 onward, 100% of sessions were completed without anyone getting fired.
+
+Session length & outliers: Standard sessions lasted roughly 2.3 to 5.8 hours, with two extreme outliers: S06 (16 hours, 12:00 PM – 4:00 AM) and S08 (split across March 12 and March 16 for ~21.8 total hours).
+
+
+
+---
+#### Thematic Analysis Phase
+
+Thematic Analysis V1 - **March 27**
+
+Thematic Analysis V2 - **April ‎21** to ‎**May ‎15**
+
+Thematic Analysis V3 - **August ‎28**
+
+---
+#### Digital Prototype Planning Phase
+
+First Mind Map - **March 2**
+
+Second Mind Map - **March 18**
+
+First Version of Petri Net (Draw.io) - **April ‎22** to ‎**May ‎8**
+
+Second Version of the Petri Net - **May ‎12**
+
+`state_machine_reference` - ‎**May ‎15**
+
+UI Design Idea - **May ‎12** to **May ‎20**
+
+Web System UI -  **May ‎20** to ‎**May ‎23**
+
+
+---
+#### Unity Implementation Phase
+
+##### Phase 1: Foundation, Custom Graph Tooling & Case Data (March 8 to April 20)
+
+(March 2026) - *Focus: Establishing the Unity URP architecture, custom visual node-based dialogue authoring tools, and initial narrative case assets. (First ever Logic Chain and Two Slot Epistemic System Iterations)* 
+
+(April 2026) - *Focus: Overhauling dialogue evaluation logic and transitioning from legacy OnGUI prototypes to modern UI Toolkit panels.*
+``` 
+
+7.32 ★ ® What did the architecture have to support: progression in any order, shared state, conditional dialogue, suspect memory, delayed evidence, timed events, scripted interruptions, several endings, a reset to the starting state? A short requirements table, derived from 6.17. — ◐ Partly: 7.2 intro and 7.2.1 (the chain of dependencies)
+
+---
 ## 7.1 Narrative Revisions
 
 ### Evidence Corpus Revision
@@ -23,6 +138,17 @@ The revised corpus further expands the available material through new reports, m
 The low-fidelity workshop was spatially constrained by its tabletop format, but participant behavior showed continued interest in environmental exploration. While only some of the participants attempted to inspect the precinct, open doors, investigate unavailable rooms, since the provided layout of the precinct was very limited, adapting the layout to a 3D environment would only naturally reveal the explorations affordances that weren't previously clear.
 
 The digital prototype therefore expands the precinct into a limited set of explorable locations (Image X). Its purpose is to give environmental interaction a narrative and epistemic function while maintaining a manageable prototype scope. The function of each room was first theorized in the base architecture and implemented for the digital prototype, so the explanation of each room's purpose will be later explained.
+
+
+ **7.1 Narrative Revisions**
+
+7.04 (R) Give two or three examples of inconsistencies you corrected in the corpus. — *◐ Partly: 6.4.3 lists the errors found (Elara's workplace, the S03 file, Kae's injection marks, E13)*
+
+7.05 ★ (R) Which new documents answer which out-of-scope rehearsal requests (calling Arthur's wife, the serial number, financial records…)? A two-column table would do. — *Open*
+
+7.06 (R) Which rehearsal requests did you deliberately not satisfy, and how did you decide? — *Open*
+
+7.07 (R) Why were the Bathroom and Locked Room added? — *↪ Answered: 8.3.1 (room list) and Ch8 Q35 (Locked Room rationale); 7.1 should point there
 
 # 7.2 Base Architecture: A Petri net-inspired state machine for Video game Logic
 
@@ -85,6 +211,21 @@ The player returns to Miller and equips `PE`. `ELARA_IN_IR` is set, and the p
 Four in-game hours later, `4H_COUNTDOWN_E4-TRACE_COMPLETE` fires. The player returns to Miller, and `MILLER_TRACE_00` plays, producing `E4-TRACE_ACQUIRED`(Figure X).
 
 The trace demonstrates how the architecture connects evidence, dialogue, space, time, and narrative consequence of a shared flag space, allowing each system to operate independently while remaining coordinated with the others. 
+
+
+**7.2 Base Architecture (Petri net)**
+
+ **7.08 ★** (R/L) Why Petri nets rather than flowcharts, statecharts or Machinations? Add the full Araújo & Roque (2009) citation. — *◐ Partly: 7.2.1 gives the legibility argument*
+ 
+ **7.09** (R) How many versions of the net were there, and what did each add or drop? — *◐ Partly: Ch8 Q29 ("there were previous ones")*
+ 
+**7.10** (R/V) Was the net purely notation, or did you analyse it formally? Either way, how did you find unreachable states, contradictory flags or soft-locks? — *◐ Partly: 8.1.4 (validator, in-game diagnostics, extractors) and the save-system workarounds in the 8.3.2 note*
+
+**7.11** (R) Will the state-machine reference document go in the appendix, and was it kept up to date? — *↪ Answered: Ch8 Q6 (not updated after moving to Unity)*
+
+**7.12** (V) The 7.2.4 trace uses a 36 h clock and the PE/PK gate. Label it as an earlier version? — *↪ Answered: 8.1.6 (changed to 24 h) and Ch8 Q31 (gate still in the build, simplified)*
+
+**7.13** (A) Should the large flag tables in 7.2.5 move to an appendix, keeping only the design logic here? — *◆ Decision*
 
 ## 7.2.5 The Accusation Sequence
 
@@ -177,6 +318,13 @@ All Kae outcome branches converge at `POST_TRIGGER_ENDING_2_KAE_$`.
 
 It does not tell the player whether the accusation is correct before or during submission, it only provides the Captain's reaction to the evidence and option that is being presented, this is all done so that the ending outcome with the character's reactions and ending panels reflect the player's decisions for the case that Miller accepts.
 
+
+**7.2.5 Accusation Sequence**
+
+**7.14 ★** (R) How did you choose Miller's three questions (shooter, motive, involvement of the other suspect)? — *◐ Partly: Ch8 Q23 gives the structure, not the reasoning*
+
+**7.15** (R) What did the slideshow ending look like, and why was it replaced by the cell scene? — *◐ Partly: Ch8 Q24 (flag mapping) and the 8.3 Ending note (cells)
+
 ## 7.2.6 The Dream Sequence
 
 This sequence can be seen here (Figure X). The way that the player can trigger this sequence, can be either in the bathroom, or anywhere else, with different outcomes depending on where the player decided to consume the Moon Drug, by equipping the AI + E15 in the slots and clicking on the detective player model. 
@@ -190,6 +338,11 @@ If the player decided to trigger the sequence during inside the bathroom, he the
 
 While modelling the game's systems using petri nets was extremely useful to map out practically all the interactions and states for the digital prototype, a different but connected conceptualization for how the dialogue system would work. This distinction was made since it wouldn't be valuable in this stage to fully mapping out each possible line of logic that would be possible to explore within the digital prototype. 
 
+**7.2.6 Dream Sequence**
+
+**7.16** (R) What does the Light Person say, what are the two dialogue options, and does either change anything afterwards? — *Open; the consequence part is answered at 4.20 (G05)*
+
+**7.17** (V) Taking the drug outside the Bathroom triggers Miller's angry sequence. — *↪ Answered: Ch8 Q30
 ## 7.3 Dialogue Narrative System
 
 The dialogue narrative system unlike the modelling the architecture using petri-net diagram, was created as a separate scalable system that would work on any narrative that followed the *Two-Slot Epistemic Interaction System*. 
@@ -321,6 +474,23 @@ These trade-offs are not weaknesses to be hidden. They are the conditions under 
 The Narrative system and how it works, its one component of the experience, being more of the brains of the narrative system while the action component that is explored through the UI, and the system architecture would also need to fall into the decision of how is the game going to feel and look like. 
 
 
+**7.3 Dialogue Narrative System**
+
+ **7.18 ★** (R) Why not Ink, Yarn Spinner or an asset-store dialogue system? Ch8 Q5 says "answered in chapter 7", but 7.3.1 discusses LLMs and branching trees, not those tools. — *⚠ Conflict: Ch8 Q5 vs 7.3.1; add one paragraph here*
+ 
+ **7.19 ★** (R) You reject an LLM at runtime but used AI assistance while authoring. How do you reconcile the two? — *◐ Partly: Ch8 Q22. Disclosure is canonical in Methodology (G07); 7.3.1 keeps only the runtime vs authoring distinction*
+ 
+ **7.20** (L) Which Fernández-Vara work is the "static detective puzzles" critique from? — *Open*
+ 
+ **7.21** (R) Where did the Logic Chain idea come from (Ace Attorney "press", Danganronpa, Disco Elysium's thought cabinet, your own rehearsal logs)? — *◐ Partly: 7.3.1 credits rehearsal patterns*
+ 
+ **7.22** (R) The 7.3.2 blockquote notes: keep them as the plan, or remove them? — *↪ Answered: 8.1.3 author note ("can be removed from Chapter 7"); "Authoring a chain" covers them*
+ 
+ **7.23** (R) "Related evidence" no longer works as planned. Keep Ch7 as the plan and record the change only in Ch8? — *↪ Answered: 8.1.3 "Departures from the Chapter 7 plan"*
+ 
+ **7.24** (R) Which of the 7.3.2 trade-offs did the build actually realise? — *Open; canonical at Ch8 Q43*
+
+ ---
 ## 7.4 Interface and Presentation Planning
 
 The final part of the prototype’s conceptualisation concerned how the investigation should feel and how the player should interact with it. These decisions had to be made before development began because they constrained the scope of the project, the asset pipeline, and the usability of the dialogue system. The audio-visual production and the concrete behaviour of each interface panel are covered in Chapter 8. This section documents the design intent, the interaction problems identified during the workshop, and the iteration history that led to the implemented interface.
@@ -374,6 +544,24 @@ Evidence must remain legible at a glance, because the player’s main expressive
 
 Because Unity’s UI Toolkit follows a web-like logic similar to HTML and CSS, the visual and functional aspects of the interface were first prototyped in a web environment before being adapted into Unity (Figure X). The concrete build, final panel behavior, and audio-visual implementation are specified in Chapter 8.
 
+### 7.4 Interface and Presentation Planning
+
+**7.25** (R) Isometric 3D vs visual novel is argued in both 7.4.1 and 8.3.1. Which chapter keeps it? — *◆ Decision*
+
+**7.26** (R) How were the evidence cards designed? — *↪ Answered: Ch8 Q50; replaces the note in 7.4.4*
+
+**7.27** (R) Dragging as deliberate friction vs hotkeys in the build. — *↪ Answered: Ch8 Q45*
+
+**7.28** (R) "Clock had to remain visible at all times" vs the build hiding it. — *↪ Answered: Ch8 Q58*
+
+**7.29** (R) What made the Disco Elysium column layout "too limited"? — *↪ Answered: Ch8 Q46*
+
+**7.30** (R) What tool did you use for the web prototype, and what didn't carry over to UI Toolkit? — *◐ Partly: Ch8 Q66 (what didn't carry over); tool not named
+
 ## 7.5 Summary
 
 This subchapter has described the base architecture of the digital prototype: a Petri net-inspired state machine adaptation focused on videogame logic, converted into a state-machine reference for authoring, debugging, and documentation. The architecture connects evidence, dialogue, space, time, and narrative consequence through a shared flag space, allowing each system to operate independently while remaining coordinated with the others. It functioned as the base architectural structure of the prototype rather than as an exhaustive specification, and was continually reconciled with the implementation as the prototype evolved. It provides the operational foundation for the narrative and dialogue systems described in 7.1 and 7.2. The following subchapter describes how this architecture was implemented in the digital prototype, including the evidence system, dialogue UI, countdown management, and ending resolution.
+
+**7.5 Summary**
+
+**7.31** (R) The summary says "this subchapter" and cites 7.1 and 7.2 as the dialogue systems. Rewrite it to summarise the whole chapter. — *Open*

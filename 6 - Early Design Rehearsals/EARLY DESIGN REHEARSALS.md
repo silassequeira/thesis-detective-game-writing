@@ -40,6 +40,25 @@ Participants also received blank paper, notebooks, sticky notes, clips, and pens
 
 To build atmosphere, sessions played a noir-jazz soundtrack with rain ambience. The facilitator also changed voices for each character and wore a long-hair wig when playing Elara. Acting as a design probe for the digital prototype, this physical setup showed how participants retrieved evidence, externalized theories, selected items for dialogue, and managed a growing pile of documents.
 
+
+**6.1 Protocol and Physical Materials**
+
+6.01 ★ ® Do you call these sessions "rehearsals" or "workshop" across the whole thesis? Chapters 5, 7 and 8 say "workshop". — ◆ Decision; canonical (G01)
+
+> Is it ok to use both, since they both relate to the same aspect ? If it's not clear maybe the canonical way to reference it is saying "In the design rehearsal sessions" "design rehearsals" 
+
+6.02 ★ ® How were consent, recording, anonymisation and data storage handled for rehearsal participants? — Open; canonical in Methodology (G07), link from here
+
+> It's already addressed in this chapter, with the anonymization being done in this specific chapter by attributing a nickname to the participants, the consent was done verbally, being able to refuse to participate or to not use their data given by saying it explicitly. Since the data was only going to be used for my thesis, not shared in any data-center or used to train anything, the risk of any violation is minimal, with the only also only serving this specific project. 
+
+6.03 ® Were the character profiles and facilitator rules a written document? Will they go in an appendix? — Open
+
+> Yes, in the design rehearsal sessions, there was a specific tutorial sheet that each player would read, this tutorial sheet will be in the annexed files section, and can be referenced to there if needed.
+
+6.04 ® What language were sessions and questionnaires in, and who translated the quotes? — Open (one Portuguese quote is translated in 6.4.7)
+
+> I don't think this question is important, but the sessions were done in both English and Portuguese with a mixture of both sometimes, the idea was to facilitate communication, the language wasn't important, the only requirement was that the participants had to know how to read and understand English in order to interpret the reports.  
+
 ---
 
 ## 6.2 Workshop Design and Elements
@@ -127,6 +146,24 @@ Characters expressed this loss of patience through role-play with no numerical m
 
 Stronger escalation carried sharper consequences. Participants could cite the revolver as evidence during questioning, yet using it to intimidate a suspect triggered an immediate forced confrontation. This rule prevented coercion from serving as a shortcut to information, forcing participants to present their case to Captain Miller on the spot with whatever evidence they had gathered. (Actions by occasional bystanders in the room did not count as game actions and never triggered this penalty.) Kae’s profile also included a misleading protective confession if participants built a sustained confrontation pinning responsibility on Elara (see 5.4.4).
 
+**6.2 Workshop Design and Elements**
+6.05 ® How did you judge the "notional" patience threshold live? Did you follow a rule of thumb (for example, three bad pairings)? — Open
+
+> No, since the main goal was to explore how people were creating their questions while also backing them up with the evidence cards that best matched their questions / confrontation intentions, in these sessions I was a lot more forgiving, I only had to intervene in one sessions because Elara's was devastated and had already completed her arc, and the participant was still trying to press on. The feedback that evidence wasn't going to get them anywhere was expressed by the character's constraints, with Elara not knowing anything and Kae refusing to tell the truth. And each sessions was a little bit different and the dialogue got better the more sessions I had since I was better prepared each time, since I had to provide answers that I would help me map out the responses that each character would give for each type of question in my mind. 
+
+6.06 (V) Is the rehearsal starter set the same as the digital starter files? — Open (7.2.3 mentions "starter files") 
+
+> Yes, it's essentially the same, the only difference is that the physical evidences instead of being in the table like in the digital prototype, they were instead given right away, but it's essentially the same. 
+
+6.07 (V) Are the evidence codes (E4-TRACE, F1, L1, E13…) the same in the rehearsal and the build? — Open
+
+> Yes, there was only a difference, that I differentiated when noting down, and ended up differentiating for the digital prototype, was adding the suffix "R" for the reports, during the rehearsals, the referencing was different, if they wanted to use the image instead of the report they would put the image in the slot, but that's it, the logic is the same, and I differentiated when writing the combinations they were doing. 
+
+6.08 ® Was Buckley present in the rehearsals, and what did he do there? — Open (6.2.1 names him only once)
+
+> Yes, but he was minor character, the player could interact with him, but he would just send the player to talk to the captain instead, he still served the same function, of getting the suspects to the interrogation room, but besides that minor role, I don't think it's worth that much to explain it. 
+
+
 ---
 
 ## 6.3 Sessions and Participants
@@ -139,21 +176,21 @@ Two participants joined twice. Steph’s first session (S04) ended shortly after
 
 Sessions were scheduled to run until conclusion, up to a limit of about six hours. Actual length varied with group size, how deeply players dug into the files, engagement with the dream, interrogation length, and whether a final confrontation occurred. Gui’s session (S08) stood out as an exception, stretching across three blocks on 13 and 16 February for roughly nine to ten hours, well past both the single-afternoon framing and the six-hour cap. Because exact start and finish times were missing from some logs, session duration serves as an approximate constraint.
 
-| Session | Participants (Pseudonyms) | Format | Ages | Completed | Ending Outcome |
-| --- | --- | --- | --- | --- | --- |
-| S01 | Rachel, Louis, Martha | Trio | 23 / 22 / 22 | Incomplete | Session cut short |
-| S02 | Ricky | Solo | 22 | Yes | Elara [Manslaughter] / Kae [Obstruction] |
-| S03 | Rodri | Solo | 22 | Yes | Kae [Murder] / Elara [Free] |
-| S04 | Steph | Solo | 22 | Yes | Fired [Insufficient case] |
-| S05 | Titi, Cati | Duo | 20 / 26 | Incomplete | Session cut short |
-| S06 | Titi | Solo | 20 | Yes | Elara [Manslaughter] / Kae [Obstruction] |
-| S07 | Kate, Chico | Duo | 22 / 23 | Yes | Elara [Manslaughter] / Kae [Gun Possession]* |
-| S08 | Gui | Solo | 25 | Yes | Kae [Murder] / Elara [Free] |
-| S09 | Helen, Andrew | Duo | 22 / 22 | Yes | Fired [Insufficient case] |
-| S10 | Lena | Solo | 22 | Yes | Kae [Murder] / Elara [Free] |
-| S11 | Jane, Mafs | Duo | 23 / 22 | Yes | Elara [Manslaughter] / Kae [Obstruction] |
-| S12 | John, Fred | Duo | 23 / 24 | Yes | Fired [Insufficient case] |
-| S13 | Julie, Steph | Duo | 25 / 22 | Yes | Elara [Manslaughter] / Kae [Gun Possession] |
+| Session | Participants (Pseudonyms) | Format | Ages         | Completed  | Ending Outcome                               |
+| ------- | ------------------------- | ------ | ------------ | ---------- | -------------------------------------------- |
+| S01     | Rachel, Louis, Martha     | Trio   | 23 / 22 / 22 | Incomplete | Session cut short                            |
+| S02     | Ricky                     | Solo   | 22           | Yes        | Elara [Manslaughter] / Kae [Obstruction]     |
+| S03     | Rodri                     | Solo   | 22           | Yes        | Kae [Murder] / Elara [Free]                  |
+| S04     | Steph                     | Solo   | 22           | Yes        | Fired [Insufficient case]                    |
+| S05     | Titi, Cati                | Duo    | 20 / 26      | Incomplete | Session cut short                            |
+| S06     | Titi                      | Solo   | 20           | Yes        | Elara [Manslaughter] / Kae [Obstruction]     |
+| S07     | Kate, Chico               | Duo    | 22 / 23      | Yes        | Elara [Manslaughter] / Kae [Gun Possession]* |
+| S08     | Gui                       | Solo   | 25           | Yes        | Kae [Murder] / Elara [Free]                  |
+| S09     | Helen, Andrew             | Duo    | 22 / 22      | Yes        | Fired [Insufficient case]                    |
+| S10     | Lena                      | Solo   | 22           | Yes        | Kae [Murder] / Elara [Free]                  |
+| S11     | Jane, Mafs                | Duo    | 23 / 22      | Yes        | Elara [Manslaughter] / Kae [Obstruction]     |
+| S12     | John, Fred                | Duo    | 23 / 24      | Yes        | Fired [Insufficient case]                    |
+| S13     | Julie, Steph              | Duo    | 25 / 22      | Yes        | Elara [Manslaughter] / Kae [Gun Possession]  |
 
 *Table 6.2. Rehearsal sessions, participant formats, completion status, and institutional outcomes. \*In S07, the facilitator approved the participants’ sleepwalking theory without requiring full evidentiary support, so this outcome arguably represents a fourth dismissal (see 6.4.3).*
 
@@ -162,6 +199,80 @@ Pseudonyms identify participants throughout, with session codes in brackets. Ele
 These outcomes offer a descriptive record of the rehearsals. They show how participants weighed evidence differently, chose distinct interrogation paths, and reached varied institutional judgments from the same underlying case, with no simple split between right and wrong answers.
 
 Several limits stemmed from the rehearsal's informal, exploratory setup. Group size, venue, duration, and prior familiarity with detective media varied freely. Not everyone filled out the post-session questionnaire, and anonymous forms could not always be matched to a specific run or player. Because the facilitator also operated the game rules, some interaction outcomes rested on live judgment alongside the prepared materials. These findings offer qualitative design evidence on how participants met, interpreted, negotiated, and pushed back against the proposed systems, without claiming statistical generalizability.
+
+**6.3 Sessions and Participants**
+
+6.09 ★ ® Add the dates to Table 6.2. Which sessions happened before and after the dialogue-limit rule change? "From S03 onward" reads oddly next to S04, S09, S11 and S12 being early. — ⚠ Conflict inside 6.4.3; session codes are not in date order (6.3); 6.10 ® What was the typical session length? — Open; : 
+
+> Is it important to organize them in date order, they are organized in a way that matches the Exel of where I categorized the each observation for the thematic analysis? I've already established the constraints of some, the sessions were essentially the same, with the same narrative. 
+
+> ~4.5-hour completion window
+
+>First -  **February 21** 
+
+> Last - **March 16**
+
+``` 
+SYMBOLS REFERENCE
+
+✗ - Incomplete Sessions
+
+☛ - Fired Ending Outcome
+
+𐀪 - Kae Killer
+
+𖠋 - Elara Killer
+
+𖨆𖨆 - Both suspects in Crime Scene
+
+♠ - Kae Gun Possession
+
+☊ - Kae Obstruction
+
+𝐅 - Elara Free 
+```
+
+> S04 - **February 21** (11:23 PM – 1:45 AM) ☛ 𐀪 𖨆𖨆
+> S09 - **February 23** (3:00 PM – 8:47 PM) ☛ 𐀪
+> S11 - **February 23** (9:00 PM – 1:20 AM) 𖠋 ☊
+> S12 - **February 24** (4:30 PM – 9:30 PM) ☛ 𖠋 𖨆𖨆
+> S03 - **February 25** (Time: 3:00 PM – 8:00 PM) 𐀪 𝐅
+> S07 - **February 25** (Time: 10:00 PM – 12:40 AM) 𖠋 ♠
+> S05 - **February 27** (Time: 4:00 PM – 7:00 PM) ✗
+> S01 - **February 28** (Time: 9:20 PM – 11:40 PM) ✗
+> S02 - **March 2** (Time: 4:00 PM – 9:00 PM) 𖠋 ☊ 𖨆𖨆
+> S10 - **March 3** (3:00 PM to 8:24 PM) 𐀪 𝐅
+> S06 - **March 5** (Time: 12:00 Midnight – 4:00 AM) 𖠋 ☊
+> S13 - **March 5** (Time: 11:00 PM – 3:00 AM) 𖠋 ♠
+> S08 - **March 12** (Time: 10:00 AM – 12:15 Noon & ‏‎5:28 PM –  ‏7:30 PM) **March 16** (Time: 5:00 PM – 8:00 PM) 𐀪 𝐅
+
+>Small Analysis: 
+
+>Elara (𖠋) = 6 (~54.5%)
+
+>Kae (𐀪) = 5 (~45.5%)
+
+> Elara Killer + Kae Obstruction (𖠋 ☊) = 3 (avg duration = 4h 27m)
+
+> Elara Killer + Kae Gun Possession (𖠋 ♠) = 2 (avg duration = 5h 54m)
+
+> Kae Killer + Elara Free (𐀪 𝐅) = 3 (avg duration = 3h 20m)
+
+> Fired Ending (`☛`) = 3 (avg duration = 4h 23m) *Getting "fired" only happened early in the testing timeline (Feb 21–24)*
+
+> (`𖨆𖨆`) = 3
+
+> **Timeline & Pacing Shifts**
+
+> Early failure vs. late completion: All Fired (☛) outcomes occurred in the opening stretch (Feb 21–24), and both Incomplete (✗) runs happened mid-way (Feb 27–28). From March 2 onward, 100% of sessions were completed without anyone getting fired.
+
+> Session length & outliers: Standard sessions lasted roughly 2.3 to 5.8 hours, with two extreme outliers: S06 (16 hours, 12:00 PM – 4:00 AM) and S08 (split across March 12 and March 16 for ~21.8 total hours).
+
+> It depends, since some were quick while other took some time, I would say that on average 3 to 5 hours, I can provide the document with the full observations, that contains the date and the estimation of the time it took. 
+
+6.11 ® What else changed between sessions apart from dialogue limits (corrected reports, new materials)? — ◐ Partly: 7.1 says inconsistencies were adjusted between sessions; 6.4.3 lists some errors
+
+> Some of the errors are listed in the appendix of the thematic analysis excel file, but other changes were things like, It was harder in the beginning to present a case, since in the first few sessions I wasn't seeing the full interpretive potential of the narrative, denying as Miller theories such as the one involving the suspects being present in the scene. 
 
 ---
 
@@ -312,6 +423,36 @@ Judgment under uncertainty also carried an ethical edge. Doubts around Elara’s
 
 For the digital prototype, the Window of Opportunity should operate as a transparent prioritisation structure, leaving opaque timers behind. Diegetic cues like institutional reminders, character availability, processing statuses, and shifting ambient audio should show players which reports are pending, which routes stay open, and when an action may close future options.
 
+
+**6.4 Thematic Analysis**
+6.12 ® Who coded the data, with what tool, and was there any check (second reading, a peer)? — Open. Procedure goes in Methodology (G07); 6.4.1 keeps only how the codes became the six themes
+
+> I was the one to review, code, and do everything related to the analysis and categorizing of each observation as well as creating the codes etc. This was all a done by a solo-developer and that one is me, I used AI sometimes to help out. 
+
+6.13 ® Kae's confession: was it possible in five sessions or six? "Only S12 missing it" implies six. — Open
+
+> **Sessions Where Kae's Confession Was Successfully Obtained (5 Sessions)**
+
+>- **S08**: Successfully obtained Kae's Confession Tape (`[GETS KAE'S CONFESSION TAPE]`).
+>- **S10**: Successfully triggered and obtained the confession tape (`F1 + L1 = CONFESSION TAPE`).
+>- **S02**: Got Kae to confess after linking the rain with weather conditions (`E3 + E19`) and pressing Kae.
+>- **S03**:  Confronted Kae with Elara, triggering Kae's confession tape.
+>- **S11**:  They used $E4\text{-Trace}$ to confront Kae, causing Kae to desperately try to take the blame for Elara to protect her
+
+6.14 ® Is "consistently succeeded" fair for 3 of 5 sessions, or should it be reworded? — Open
+
+6.15 ® Should 6.4 or 6.5 say the revolver-intimidation rule was dropped from the digital build? — ◐ Partly: Ch8 Q29 (pointing the gun at characters was cut)
+
+> I don't think so, since makes more sense in either chapter 7 or 8.
+
+6.18 ® Which participant behaviour contradicted your design assumptions, rather than confirming them? — Open
+
+> Session 12 (S12), was the most important one, since it was a drastic failure, basically both participants had a lot of experience with roleplaying games in general, having both player for years games like dungeons and dragons. So at first I was really happy to have both of them play with it, they were also a little bit annoying always suggesting changes and fully following the flow of the game, like, before actually asking a report based on their questions, they were giving a suggestion for a possibility that was already there they just werent asking or they werent reading enough. But overall they gave really good suggestions. But since I didn't restrict their roleplaying possibilities, and they didn't fully understand how the two slot system worked, they were trying different interrogation approaches based on what they know about FBI interrogation styles, basically back then the narrative had the Moon drug, seem like a heavy drug like heroin, so they were playing around with different strategies, like having the suspects waiting in interrogation room for a while and letting them get desperate since they assumed they were in their hangover phase, this went agains the narrative and character design that I planned for, but made narrative sense. The report and theory building aspect went extremely well, but once they got to the interrogation, everything started to crumble down, since they were asking questions per say, they were just throwing their deductions without asking anything, so I gave limited responses for both characters, Elara just kept saying "I don't know anything, I swear", and Kae kept saying things like "I'm not going to answer that", which led them to get really frustrated and thinking the interrogation was unfair, even when I explained and went out of character that they had to present the evidence and ask question or make actual confrontations based on something, since I needed to note down those questions to have a general Idea for the digital prototype. After this session, I built the tutorial sheet, and explained the rules and set up the boundaries clearly in the beginning of each session, so that I could actually have data to work with for the game. Because in my original design proposal the interrogation system was more complex, and allowed a lot more player expression, having options like bluffing, lying, etc (It's in the annexed file related to the previous design proposal), but since it could increase exponentially the complexity of the prototype, I ended up with the inquiry and confrontation options, so the boundaries came from limiting the player to questions, presenting evidence in the slots and make confrontations if they wanted to extract further information by pointing out the suspects inconsistencies. From that point on the sessions went a lot smoother. 
+
+6.19 ★ ® What did you, as facilitator, do that the digital build cannot (clarify, rephrase, give context, interpret reactions, correct errors)? What does that mean for comparing rehearsal results with playtest results? — ◐ Partly: 6.3 (outcomes rested on live judgement) and 6.4.3 (three facilitation lapses)
+
+> I don't know if that comparison is fair, even tho the design rehearsals and the digital prototype follow the same narrative and characters, the digital protype is a posterior iteration of the research through design methodology with the design rehearsal not being at all a finished complete experience, but more of a playground that gave me ideas to help validate the two slot system, gather information on what were the questions and logic structures in interrogations, correct any narrative inconsistencies from the reports, essentially solidify and validate that the reports and investigation design worked together to achieve the designed experience that I wanted to build on. So I ended up intervening a lot more as the facilitator to make sure that people would be able to think of better questions, while trying to explain everything and anything related to the system that people weren't understanding. Plus I don't have that much experience roleplaying in general, so the roleplaying quality and actual answers that I would give, even when they were bonded to the character and narrative, they were really inconsistent, but enough for people to explore and have a fun experience while playing, as well as getting to finish the game. Also the ending sequence with Miller was really inconsistent in the design rehearsals, with some I actually asked to provide the evidences that they would present to back up their theory, while in other I would just as what was their interpretation on what happened, and based on that interpretation, if based on the evidence and not just wild guessing I would accept or not, and give the appropriate outcome.   
+
 ---
 
 ## 6.5 Summary of Results
@@ -332,3 +473,29 @@ The rehearsals mapped the conditions under which the proposed systems could supp
 The rehearsal findings showed where each system needed adjustment to support player-led interpretation. Subsequent revisions focused on four linked goals, covering tighter internal consistency in the evidence corpus, clearer links between evidence, departmental requests, dialogue, and player intent, broader narrative and spatial context for finding clues, and stronger tools for externalizing, revising, and communicating theories.
 
 The low-fidelity rehearsal functioned as a formative Research-through-Design stage. It exposed successful interactions and surfaced design flaws before they could harden inside a digital build. The revised narrative and interaction structure presented in the next chapter grew directly out of this cycle of observation, correction, and iteration.
+
+6.16 ★ ® For each row of Table 6.4, what did the build actually do? This is the link examiners will check. — ◐ Partly:
+Theme 1 → 8.2.3 (folders, notes, archive)
+Theme 2 → ⚠ 8.2.5 and Ch8 Q55: no patience meter, terminal says only "No matching record found"; Q91 decides whether the weak question's in-fiction feedback is the deliberate replacement
+Theme 3 → 8.1.3 (Confrontation costs twice as much patience)
+Theme 4 → ⚠ Open; answered at 4.20 (G05)
+Theme 5 → 8.2 (single-player throughout)
+Theme 6 → 8.1.6 and 8.2.6 (hourglass on pending items, Miller's 12 h warning)
+
+> Ok, yeah, it doesn't have a for theme 2, there's no patience meter, but as I will analyze later in chapter 9, that wasn't an issue at all, people understood when the patience of a character was lowered based on their weak questions responses, there's no need to have a patience meter since the diegetic character responses can provide a better and more integrated way of showing when a response wasn't accepted.  
+> 
+> Also the terminal doesn't just say that, it actually provides both the "No matching record found", as well as saying something along the lines of "Report already in File" for the reports the player has already obtained. But yes, there are issues with this panel and inventory system that I will address in chapter 9, and it's far from perfect. 
+
+
+> Yeah, the 4th theme, is the biggest issue, only two session until now, have actually explored the dream sequence, some might've acknowledge that the game was motivating them to perform that action but weren't interested being afraid of costing them to fail the game. Right now in the digital prototype from the tests I've done so far, it feels more like an easter egg than an actual thing people are willing to explore, this is a theme that is not necessarily a failure, since it's a way of people actually expecting consequences to their actions, while others might be a lack of affordances that tell the player they would be able to do it, which is a contrast to the workshop sessions where I would explain every single detail and thing to watch out in order to make sure people were aware that they would be afford doing certain actions if they wanted to. This is fair contrast since people in the workshop felt more willing to explore with some actually going for it. I've thought of some solutions to this problem that will be addressed in chapter 9, but most of them could be related to the fact that I'm a solo developer who had limited time to build the game and some of the feature that are missing, such as the physical items not being in 3D, and some interactions just not being available with those items that could help clear out the different affordances related to them. But it's something to be discussed in chapter 9 and I don't want to influence the writing on these chapters. 
+> 
+> And the options in the waking world mentioned here, as said as an answer to another question, it's simply because I didn't have the time to actually implement and test, since I'm a solo developer with limited time who had to do everything.   
+
+> Theme 5 → 8.2 (single-player throughout), this is not a fixed thing, since I will discuss this in the 9th chapter, since I had some of the session be in with 2 people playing, even if there's no actually implemented co-op feature. It doesn't need, it's an interpretation game with decisions, where the cognitive work could be part of a shared experience, even if the game was made mechanically as a single player experience.   
+
+
+> Theme 6 → 8.1.6 and 8.2.6 (hourglass on pending items, Miller's 12 h warning). Expanding on this, there's also the "Let's get back to" option that allows the player to know when they can get back to a certain logic route 
+
+6.17 ® Turn Table 6.4's implication column into numbered design requirements (R1–R6) that Chapter 7 starts from. The closing paragraph lists four revision goals; 7 says "five objectives" and lists three. Settle one list. — Open; shared with 7.01 and 7.32
+
+> Ok, I'm still not sure about this, since those were design implications based on the themes that were analyzed in chapter 6. With 7 having more of a role of documenting the mental process involved in moving the experience from a design roleplaying rehearsal to a open ended interactive narrative detective game that required different systems and fledged out architecture in order to make sure the development of the digital prototype wasn't going to fall in development hell and just not be achievable. The design implications from this chapter can be more explicitly discussed in chapter 8 and 9, where I document explicitly what was done based on those design implications from chapter 6.  
